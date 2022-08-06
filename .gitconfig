@@ -1,0 +1,28 @@
+[user]
+	name = Thomas Tuvignon
+	email = thomas.tuvignon@ultro.fr
+
+[core]
+	excludesfile = /Users/thomastuvignon/.gitignore_global
+	
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[init]
+	defaultBranch = main
+
+[merge]
+	tool = vscode
+
+[mergetool "vscode"]
+	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+
+[diff]
+	tool = vscode
+
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+	trustExitCode = true
