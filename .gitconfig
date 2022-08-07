@@ -3,13 +3,11 @@
 	email = thomas.tuvignon@ultro.fr
 
 [core]
-	excludesfile = /Users/thomastuvignon/.gitignore_global
-	
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+	excludesFile = /Users/thomastuvignon/.gitignore
+
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	st = status
 
 [init]
 	defaultBranch = main

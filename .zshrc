@@ -1,6 +1,4 @@
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-alias gs="git status -sb"
-alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 eval $(starship init zsh)
 eval $(thefuck --alias)
