@@ -1,6 +1,7 @@
 [user]
 	name = Thomas Tuvignon
 	email = thomas.tuvignon@ultro.fr
+	signingkey = F2E9E6EF7221664F
 
 [core]
 	excludesFile = /Users/thomastuvignon/.gitignore
@@ -11,6 +12,9 @@
 
 [init]
 	defaultBranch = main
+
+[commit]
+	gpgsign = true
 
 [merge]
 	tool = vscode
