@@ -16,6 +16,9 @@
 [commit]
 	gpgsign = true
 
+[push]
+	autoSetupRemote = true
+
 [merge]
 	tool = vscode
 
