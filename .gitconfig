@@ -7,8 +7,10 @@
 	excludesFile = /Users/thomastuvignon/.gitignore
 
 [alias]
+	ca = commit --amend --no-edit
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	st = status
+	pf = push --force-with-lease
+	ss = status -sb
 
 [init]
 	defaultBranch = main
