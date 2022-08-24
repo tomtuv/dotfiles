@@ -1,11 +1,18 @@
 {
-  "[liquid]": { "editor.defaultFormatter": "Shopify.theme-check-vscode" },
+  "[liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode"
+  },
+  "[smarty]": {
+    "editor.defaultFormatter": "aswinkumar863.smarty-template-support"
+  },
   "atlascode.bitbucket.enabled": true,
   "atlascode.jira.enabled": false,
   "css.validate": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.accessibilitySupport": "off",
-  "editor.codeActionsOnSave": { "source.fixAll": true },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace",
   "editor.formatOnPaste": true,
@@ -23,7 +30,9 @@
     "nunjucks": "html",
     "postcss": "css"
   },
-  "emmet.syntaxProfiles": { "postcss": "css" },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
   "explorer.confirmDragAndDrop": false,
   "files.insertFinalNewline": true,
   "git.autofetch": true,
@@ -43,7 +52,6 @@
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
   "livePreview.openPreviewTarget": "External Browser",
   "markdownShortcuts.languages": ["markdown", "mdx"],
-  "npm.keybindingsChangedWarningShown": true,
   "postcss.validate": false,
   "redhat.telemetry.enabled": false,
   "scss.validate": false,
