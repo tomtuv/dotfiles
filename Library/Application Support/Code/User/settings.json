@@ -40,12 +40,12 @@
   "git.terminalGitEditor": true,
   "github.copilot.enable": {
     "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false,
     "javascript": true,
     "javascriptreact": true,
-    "markdown": false,
-    "plaintext": true,
-    "postcss": true,
-    "yaml": false
+    "postcss": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
@@ -58,8 +58,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "shopifyLiquid.formatterDevPreview": true,
   "stylelint.validate": ["css", "less", "postcss", "scss"],
-  "terminal.external.osxExec": "iTerm.app",
-  "timeline.excludeSources": [],
+  "terminal.external.osxExec": "Hyper.app",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.autoDetectColorScheme": true,
@@ -69,8 +68,5 @@
   "workbench.editor.historyBasedLanguageDetection": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.preferredHighContrastColorTheme": "GitHub Light High Contrast",
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
-  "yaml.schemas": {
-    "file:///Users/thomastuvignon/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  }
+  "workbench.preferredLightColorTheme": "GitHub Light Default"
 }
