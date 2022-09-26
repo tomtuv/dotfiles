@@ -1,7 +1,8 @@
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
-eval $(starship init zsh)
-eval $(thefuck --alias)
+eval "$(rbenv init - zsh)"
+eval "$(starship init zsh)"
+eval "$(thefuck --alias)"
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
