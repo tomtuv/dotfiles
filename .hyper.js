@@ -5,6 +5,6 @@ module.exports = {
     fontFamily:
       "ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace",
   },
-  plugins: ["hyper-snazzy", "hyper-fading-scrollbar"],
+  plugins: ["hyper-snazzy"],
 };
 //# sourceMappingURL=config-default.js.map
