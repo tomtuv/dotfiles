@@ -5,6 +5,12 @@ eval "$(thefuck --alias)"
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
+
+autoload -U promptinit; promptinit
+prompt pure
+
+zstyle :prompt:pure:git:stash show yes
 
 export LC_ALL=en_US.UTF-8
 
