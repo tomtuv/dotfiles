@@ -68,5 +68,8 @@
   "workbench.editor.historyBasedLanguageDetection": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.preferredHighContrastColorTheme": "GitHub Light High Contrast",
-  "workbench.preferredLightColorTheme": "GitHub Light Default"
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "yaml.schemas": {
+    "file:///Users/thomastuvignon/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  }
 }
