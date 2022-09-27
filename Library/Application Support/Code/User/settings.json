@@ -5,8 +5,6 @@
   "[smarty]": {
     "editor.defaultFormatter": "aswinkumar863.smarty-template-support"
   },
-  "atlascode.bitbucket.enabled": true,
-  "atlascode.jira.enabled": false,
   "css.validate": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.accessibilitySupport": "off",
