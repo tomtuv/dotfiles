@@ -5,6 +5,7 @@
 
 [core]
 	excludesFile = /Users/thomastuvignon/.gitignore
+	editor = nvim
 
 [alias]
 	ca = commit --amend --no-edit
