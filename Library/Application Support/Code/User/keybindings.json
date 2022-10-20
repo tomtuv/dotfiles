@@ -1,0 +1,23 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "alt+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "alt+r alt+e",
+    "command": "extension.cssrem.rem-switch-px"
+  },
+  {
+    "key": "alt+z",
+    "command": "-extension.cssrem.rem-switch-px"
+  },
+  {
+    "key": "alt+r alt+p",
+    "command": "extension.cssrem.rpx-switch-px"
+  },
+  {
+    "key": "alt+r",
+    "command": "-extension.cssrem.rpx-switch-px"
+  }
+]
