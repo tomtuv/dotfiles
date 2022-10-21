@@ -8,6 +8,7 @@
 	editor = nvim
 
 [alias]
+	ap = !git add -N . && git add -p
 	ca = commit --amend --no-edit
 	lg = log --oneline --graph --decorate --all
 	pf = push --force-with-lease
