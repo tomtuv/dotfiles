@@ -12,7 +12,7 @@
     "source.fixAll": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "ui-monospace, SFMono-Regular, monospace, Apple Color Emoji",
+  "editor.fontFamily": "ui-monospace, SFMono-Regular, monospace",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,

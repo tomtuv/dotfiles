@@ -3,7 +3,7 @@
  */
 module.exports = {
   config: {
-    fontFamily: "ui-monospace, SFMono-Regular, monospace, Apple Color Emoji",
+    fontFamily: "ui-monospace, SFMono-Regular, monospace",
     cursorShape: "BEAM",
     cursorBlink: true,
   },
