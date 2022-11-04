@@ -8,6 +8,7 @@
 	editor = nvim
 
 [alias]
+	aa = add -A
 	ap = !git add -N . && git add -p
 	ca = commit --amend --no-edit
 	lg = log --oneline --graph --decorate --all
