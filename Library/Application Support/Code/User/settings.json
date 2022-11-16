@@ -46,6 +46,7 @@
     "postcss": true
   },
   "githubPullRequests.pullBranch": "always",
+  "gitlens.codeLens.scopes": ["document"],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
