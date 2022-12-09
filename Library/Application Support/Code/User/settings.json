@@ -38,12 +38,12 @@
   "git.terminalGitEditor": true,
   "github.copilot.enable": {
     "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false,
     "javascript": true,
     "javascriptreact": true,
-    "postcss": true
+    "markdown": false,
+    "plaintext": true,
+    "postcss": true,
+    "yaml": false
   },
   "githubPullRequests.pullBranch": "always",
   "gitlens.codeLens.scopes": ["document"],
@@ -71,5 +71,8 @@
   "workbench.editor.historyBasedLanguageDetection": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.preferredHighContrastColorTheme": "GitHub Light High Contrast",
-  "workbench.preferredLightColorTheme": "GitHub Light Default"
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  }
 }
