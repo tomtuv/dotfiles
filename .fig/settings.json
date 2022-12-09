@@ -1,0 +1,15 @@
+{
+  "app.hideMenubarIcon": true,
+  "app.launchOnStartup": true,
+  "app.preferredTerminal": "Hyper",
+  "autocomplete.disable": false,
+  "autocomplete.fontFamily": "ui-monospace, SFMono-Regular, monospace",
+  "autocomplete.fontSize": 12,
+  "autocomplete.height": 140,
+  "autocomplete.keybindings.enter": "insertSelected",
+  "autocomplete.keybindings.tab": "insertCommonPrefix",
+  "autocomplete.onlyShowOnTab": false,
+  "autocomplete.theme": "system",
+  "autocomplete.width": 320,
+  "telemetry.disabled": true
+}
