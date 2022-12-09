@@ -14,7 +14,7 @@
 	lg = log --oneline --graph --decorate --all
 	pf = push --force-with-lease
 	rh = reset --hard
-	si = git stash --include-untracked
+	si = stash --include-untracked
 	ss = status -sb
 
 [init]
