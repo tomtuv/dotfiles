@@ -56,11 +56,14 @@
   "redhat.telemetry.enabled": false,
   "scss.validate": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "shopifyLiquid.formatterDevPreview": true,
   "stylelint.validate": ["css", "less", "postcss", "scss"],
   "terminal.external.osxExec": "Hyper.app",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "totalTypeScript.hideAllTips": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.autoDetectColorScheme": true,
@@ -71,8 +74,5 @@
   "workbench.editor.historyBasedLanguageDetection": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.preferredHighContrastColorTheme": "GitHub Light High Contrast",
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  }
+  "workbench.preferredLightColorTheme": "GitHub Light Default"
 }
