@@ -1,5 +1,5 @@
 {
-  "app.hideMenubarIcon": true,
+  "app.hideMenubarIcon": false,
   "app.launchOnStartup": true,
   "app.preferredTerminal": "Hyper",
   "autocomplete.disable": false,
