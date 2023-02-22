@@ -19,5 +19,13 @@
   {
     "key": "alt+r",
     "command": "-extension.cssrem.rpx-switch-px"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.emmet.action.balanceIn"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.emmet.action.balanceOut"
   }
 ]
