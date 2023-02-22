@@ -11,6 +11,7 @@
 	aa = add -A
 	ap = !git add -N . && git add -p
 	ca = commit --amend --no-edit
+	fd = !git branch --v | grep \"\\[gone\\]\" | awk \"{print $1}\" | xargs git branch -D
 	lg = log --oneline --graph --decorate --all
 	pf = push --force-with-lease
 	rh = reset --hard
