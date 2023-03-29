@@ -27,5 +27,13 @@
   {
     "key": "ctrl+shift+up",
     "command": "editor.emmet.action.balanceOut"
+  },
+  {
+    "key": "shift+cmd+0",
+    "command": "editor.action.inlineSuggest.showNext"
+  },
+  {
+    "key": "shift+cmd+9",
+    "command": "editor.action.inlineSuggest.showPrevious"
   }
 ]
