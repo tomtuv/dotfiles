@@ -1,5 +1,6 @@
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias pn=pnpm
 
 eval "$(rbenv init - zsh)"
 eval "$(thefuck --alias)"
