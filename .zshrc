@@ -1,6 +1,7 @@
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-alias pn=pnpm
+alias df="dotfiles"
+alias pn="pnpm"
 
 eval "$(rbenv init - zsh)"
 eval "$(thefuck --alias)"
@@ -23,3 +24,11 @@ export NVM_DIR="$HOME/.nvm"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
+# pnpm
+export PNPM_HOME="/Users/thomastuvignon/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
