@@ -74,5 +74,6 @@
   "workbench.editor.historyBasedLanguageDetection": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.preferredHighContrastColorTheme": "GitHub Light High Contrast",
-  "workbench.preferredLightColorTheme": "GitHub Light Default"
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "git.ignoreRebaseWarning": true
 }
