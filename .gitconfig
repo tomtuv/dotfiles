@@ -39,3 +39,6 @@
 [difftool "vscode"]
 	cmd = code --wait --diff $LOCAL $REMOTE
 	trustExitCode = true
+	
+[rerere]
+	enabled = true
