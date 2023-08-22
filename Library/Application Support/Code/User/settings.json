@@ -2,8 +2,14 @@
   "[liquid]": {
     "editor.defaultFormatter": "Shopify.theme-check-vscode"
   },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
   "[smarty]": {
     "editor.defaultFormatter": "aswinkumar863.smarty-template-support"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "css.validate": false,
   "diffEditor.ignoreTrimWhitespace": true,
@@ -31,19 +37,32 @@
   "emmet.syntaxProfiles": {
     "postcss": "css"
   },
+  "eslint.validate": [
+    "astro",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "markdown",
+    "svelte",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
   "explorer.confirmDragAndDrop": false,
   "files.insertFinalNewline": true,
   "git.autofetch": true,
+  "git.ignoreRebaseWarning": true,
   "git.mergeEditor": true,
   "git.terminalGitEditor": true,
   "github.copilot.enable": {
     "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
     "javascript": true,
     "javascriptreact": true,
-    "markdown": false,
-    "plaintext": true,
     "postcss": true,
-    "yaml": false
+    "yaml": true
   },
   "githubPullRequests.pullBranch": "always",
   "gitlens.codeLens.scopes": ["document"],
@@ -56,12 +75,27 @@
   "redhat.telemetry.enabled": false,
   "scss.validate": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "stylelint.validate": ["css", "less", "postcss", "scss"],
+  "stylelint.validate": [
+    "astro",
+    "css",
+    "html",
+    "less",
+    "php",
+    "postcss",
+    "scss",
+    "svelte",
+    "vue",
+    "xml"
+  ],
+  "svelte.enable-ts-plugin": true,
   "terminal.external.osxExec": "Hyper.app",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.profiles.osx": {
+    "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
   },
   "totalTypeScript.hideAllTips": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -74,6 +108,5 @@
   "workbench.editor.historyBasedLanguageDetection": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.preferredHighContrastColorTheme": "GitHub Light High Contrast",
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
-  "git.ignoreRebaseWarning": true
+  "workbench.preferredLightColorTheme": "GitHub Light Default"
 }
