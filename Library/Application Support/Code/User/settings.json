@@ -102,7 +102,6 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.autoDetectColorScheme": true,
   "window.closeWhenEmpty": true,
-  "window.commandCenter": true,
   "window.newWindowDimensions": "inherit",
   "workbench.colorTheme": "GitHub Light Default",
   "workbench.editor.historyBasedLanguageDetection": true,
