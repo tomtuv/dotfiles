@@ -11,11 +11,28 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
+  "console-ninja.featureSet": "Community",
   "css.validate": false,
+  "cssVariables.languages": [
+    "astro",
+    "css",
+    "html",
+    "less",
+    "php",
+    "postcss",
+    "scss",
+    "svelte",
+    "vue",
+    "vue-html",
+    "vue-postcss",
+    "xml"
+  ],
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.addMissingImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.removeUnusedImports": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "ui-monospace, SFMono-Regular, monospace",
@@ -24,6 +41,7 @@
   "editor.inlineSuggest.enabled": true,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
   "editor.suggest.preview": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -51,17 +69,19 @@
   "explorer.confirmDragAndDrop": false,
   "files.insertFinalNewline": true,
   "git.autofetch": true,
+  "git.enableCommitSigning": true,
   "git.ignoreRebaseWarning": true,
   "git.mergeEditor": true,
   "git.terminalGitEditor": true,
+  "git.useEditorAsCommitInput": false,
   "github.copilot.enable": {
     "*": true,
-    "plaintext": true,
-    "markdown": true,
-    "scminput": false,
     "javascript": true,
     "javascriptreact": true,
+    "markdown": true,
+    "plaintext": true,
     "postcss": true,
+    "scminput": false,
     "yaml": true
   },
   "githubPullRequests.pullBranch": "always",
@@ -71,8 +91,8 @@
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
   "livePreview.openPreviewTarget": "External Browser",
   "markdownShortcuts.languages": ["markdown", "mdx"],
-  "postcss.validate": false,
   "redhat.telemetry.enabled": false,
+  "sanity.useCodelens": false,
   "scss.validate": false,
   "security.workspace.trust.untrustedFiles": "open",
   "stylelint.validate": [
@@ -85,6 +105,8 @@
     "scss",
     "svelte",
     "vue",
+    "vue-html",
+    "vue-postcss",
     "xml"
   ],
   "svelte.enable-ts-plugin": true,
@@ -95,14 +117,19 @@
     "FIG_NEW_SESSION": "1"
   },
   "terminal.integrated.profiles.osx": {
-    "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
+    "zsh": {
+      "args": [],
+      "path": "/bin/zsh"
+    }
   },
   "totalTypeScript.hideAllTips": true,
+  "typescript.tsserver.log": "verbose",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.autoDetectColorScheme": true,
   "window.closeWhenEmpty": true,
   "window.newWindowDimensions": "inherit",
+  "window.titleBarStyle": "custom",
   "workbench.colorTheme": "GitHub Light Default",
   "workbench.editor.historyBasedLanguageDetection": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
