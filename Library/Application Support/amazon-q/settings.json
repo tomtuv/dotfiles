@@ -4,5 +4,7 @@
   "autocomplete.fontFamily": "ui-monospace, SFMono-Regular, monospace",
   "autocomplete.fontSize": 12,
   "autocomplete.theme": "system",
-  "telemetry.disabled": true
+  "codeWhisperer.shareCodeWhispererContentWithAWS": false,
+  "telemetry.disabled": true,
+  "telemetry.enabled": false
 }
