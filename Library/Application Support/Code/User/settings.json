@@ -69,6 +69,7 @@
   "explorer.confirmDragAndDrop": false,
   "files.insertFinalNewline": true,
   "git.autofetch": true,
+  "git.confirmSync": false,
   "git.enableCommitSigning": true,
   "git.ignoreRebaseWarning": true,
   "git.mergeEditor": true,
@@ -114,7 +115,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
+    "CW_NEW_SESSION": "1"
   },
   "terminal.integrated.profiles.osx": {
     "zsh": {
@@ -123,7 +124,6 @@
     }
   },
   "totalTypeScript.hideAllTips": true,
-  "typescript.tsserver.log": "verbose",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.autoDetectColorScheme": true,
