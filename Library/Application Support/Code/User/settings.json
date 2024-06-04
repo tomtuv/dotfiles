@@ -75,6 +75,7 @@
   "git.mergeEditor": true,
   "git.terminalGitEditor": true,
   "git.useEditorAsCommitInput": false,
+  "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
     "*": true,
     "javascript": true,
@@ -115,7 +116,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.env.osx": {
-    "CW_NEW_SESSION": "1"
+    "Q_NEW_SESSION": "1"
   },
   "terminal.integrated.profiles.osx": {
     "zsh": {
