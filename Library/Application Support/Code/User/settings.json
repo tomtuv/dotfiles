@@ -1,9 +1,15 @@
 {
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
   "[liquid]": {
     "editor.defaultFormatter": "Shopify.theme-check-vscode"
   },
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[smarty]": {
     "editor.defaultFormatter": "aswinkumar863.smarty-template-support"
@@ -95,6 +101,7 @@
   "markdownShortcuts.languages": ["markdown", "mdx"],
   "redhat.telemetry.enabled": false,
   "sanity.useCodelens": false,
+  "scm.experimental.showHistoryGraph": true,
   "scss.validate": false,
   "security.workspace.trust.untrustedFiles": "open",
   "stylelint.validate": [
