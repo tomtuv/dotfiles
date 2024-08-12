@@ -101,7 +101,6 @@
   "markdownShortcuts.languages": ["markdown", "mdx"],
   "redhat.telemetry.enabled": false,
   "sanity.useCodelens": false,
-  "scm.experimental.showHistoryGraph": true,
   "scss.validate": false,
   "security.workspace.trust.untrustedFiles": "open",
   "stylelint.validate": [
