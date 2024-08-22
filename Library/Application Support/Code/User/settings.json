@@ -1,4 +1,7 @@
 {
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
@@ -7,6 +10,9 @@
   },
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -30,8 +36,7 @@
     "svelte",
     "vue",
     "vue-html",
-    "vue-postcss",
-    "xml"
+    "vue-postcss"
   ],
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.accessibilitySupport": "off",
@@ -114,8 +119,7 @@
     "svelte",
     "vue",
     "vue-html",
-    "vue-postcss",
-    "xml"
+    "vue-postcss"
   ],
   "svelte.enable-ts-plugin": true,
   "terminal.external.osxExec": "Hyper.app",
