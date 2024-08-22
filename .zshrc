@@ -38,6 +38,9 @@ bun_completions_file="$HOME/.bun/_bun"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# fnm
+eval "$(fnm env --use-on-cd --shell zsh)"
+
 # pnpm
 export PNPM_HOME="/Users/thomastuvignon/Library/pnpm"
 case ":$PATH:" in
