@@ -1,6 +1,5 @@
-# Q pre block. Keep at the top of this file.
-q_pre_block_file="${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
-[[ -f "$q_pre_block_file" ]] && builtin source "$q_pre_block_file"
+# Amazon Q pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
 
 # Aliases
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -51,6 +50,5 @@ esac
 # Console Ninja
 export PATH=~/.console-ninja/.bin:$PATH
 
-# Q post block. Keep at the bottom of this file.
-q_post_block_file="${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
-[[ -f "$q_post_block_file" ]] && builtin source "$q_post_block_file"
+# Amazon Q post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
