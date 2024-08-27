@@ -98,12 +98,17 @@
     "yaml": true
   },
   "githubPullRequests.pullBranch": "always",
-  "gitlens.codeLens.scopes": ["document"],
+  "gitlens.codeLens.scopes": [
+    "document"
+  ],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
   "livePreview.openPreviewTarget": "External Browser",
-  "markdownShortcuts.languages": ["markdown", "mdx"],
+  "markdownShortcuts.languages": [
+    "markdown",
+    "mdx"
+  ],
   "redhat.telemetry.enabled": false,
   "sanity.useCodelens": false,
   "scss.validate": false,
