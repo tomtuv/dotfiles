@@ -1,0 +1,66 @@
+{
+  "React Component": {
+    "scope": "typescriptreact,javascript,javascriptreact",
+    "prefix": "component",
+    "body": [
+      "export function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}() {",
+      "  return ${2:<div>$0</div>};",
+      "}",
+      ""
+    ],
+  },
+  "React Component (Default Export)": {
+    "scope": "typescriptreact,javascript,javascriptreact",
+    "prefix": "component default",
+    "body": [
+      "export default function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}() {",
+      "  return ${2:<div>$0</div>};",
+      "}",
+      ""
+    ],
+  },
+  "React Context": {
+    "scope": "javascript,javascriptreact",
+    "prefix": "context",
+    "body": [
+      "import { createContext, useContext } from \"react\";",
+      "",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Context = createContext(${0:null});",
+      "",
+      "export function ${1:Provider}({ children }) {",
+      "  return (",
+      "    <${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Context.Provider value={${0:null}}>",
+      "      {children}",
+      "    </${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Context.Provider>",
+      "  );",
+      "}",
+      "",
+      "export function use${1:Context}() {",
+      "  return useContext(${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Context);",
+      "}",
+      ""
+    ],
+  },
+  "React Context (TypeScript)": {
+    "scope": "typescriptreact",
+    "prefix": "context",
+    "body": [
+      "import { createContext, useContext } from \"react\";",
+      "",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Context = createContext(${0:null});",
+      "",
+      "export function ${1:Provider}({ children }: { children: React.ReactNode }) {",
+      "  return (",
+      "    <${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Context.Provider value={${0:null}}>",
+      "      {children}",
+      "    </${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Context.Provider>",
+      "  );",
+      "}",
+      "",
+      "export function use${1:Context}() {",
+      "  return useContext(${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Context);",
+      "}",
+      ""
+    ],
+  }
+}
