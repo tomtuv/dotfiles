@@ -86,6 +86,7 @@
   "git.mergeEditor": true,
   "git.terminalGitEditor": true,
   "git.useEditorAsCommitInput": false,
+  "github.copilot.advanced": {},
   "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
     "*": true,
