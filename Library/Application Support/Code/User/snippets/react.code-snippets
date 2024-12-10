@@ -1,27 +1,27 @@
 {
   "React Component": {
     "scope": "typescriptreact,javascript,javascriptreact",
-    "prefix": "component",
+    "prefix": "react component",
     "body": [
-      "export function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}() {",
-      "  return ${2:<div>$0</div>};",
+      "export function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}($2) {",
+      "  return ${3:<div>$0</div>};",
       "}",
       ""
     ],
   },
   "React Component (Default Export)": {
     "scope": "typescriptreact,javascript,javascriptreact",
-    "prefix": "component default",
+    "prefix": "react component default",
     "body": [
-      "export default function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}() {",
-      "  return ${2:<div>$0</div>};",
+      "export default function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}($2) {",
+      "  return ${3:<div>$0</div>};",
       "}",
       ""
     ],
   },
   "React Context": {
     "scope": "javascript,javascriptreact",
-    "prefix": "context",
+    "prefix": "react context",
     "body": [
       "import { createContext, useContext } from \"react\";",
       "",
@@ -43,7 +43,7 @@
   },
   "React Context (TypeScript)": {
     "scope": "typescriptreact",
-    "prefix": "context",
+    "prefix": "react context",
     "body": [
       "import { createContext, useContext } from \"react\";",
       "",
