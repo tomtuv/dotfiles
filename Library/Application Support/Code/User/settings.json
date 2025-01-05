@@ -123,7 +123,7 @@
     "vue-postcss"
   ],
   "svelte.enable-ts-plugin": true,
-  "terminal.external.osxExec": "Hyper.app",
+  "terminal.external.osxExec": "Ghostty.app",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.env.osx": {
