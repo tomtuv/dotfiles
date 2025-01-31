@@ -1,10 +1,12 @@
-adjust-cell-width = -1
-confirm-close-surface = false
-cursor-style = bar
 font-family = SF Mono
 font-family = Menlo
 font-family = Symbols Nerd Font Mono
 font-size = 12
+adjust-cell-width = -1
 theme = Snazzy Soft
+cursor-style = bar
+window-padding-x = 8
+window-padding-y = 8
 window-height = 25
 window-width = 75
+confirm-close-surface = false
