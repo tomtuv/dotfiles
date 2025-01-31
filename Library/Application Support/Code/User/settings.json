@@ -23,6 +23,10 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
   "console-ninja.featureSet": "Community",
   "css.validate": false,
   "cssVariables.languages": [
