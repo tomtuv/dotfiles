@@ -46,13 +46,15 @@
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.addMissingImports": "explicit",
-    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
     "source.removeUnusedImports": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "ui-monospace, SFMono-Regular, monospace",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.inlineSuggest.edits.renderSideBySide": "never",
   "editor.inlineSuggest.enabled": true,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
@@ -84,6 +86,7 @@
   "explorer.confirmDragAndDrop": false,
   "files.insertFinalNewline": true,
   "git.autofetch": true,
+  "git.blame.editorDecoration.enabled": true,
   "git.confirmSync": false,
   "git.enableCommitSigning": true,
   "git.ignoreRebaseWarning": true,
@@ -91,6 +94,7 @@
   "git.terminalGitEditor": true,
   "git.useEditorAsCommitInput": false,
   "github.copilot.advanced": {},
+  "github.copilot.chat.edits.codesearch.enabled": true,
   "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
     "*": true,
@@ -102,6 +106,7 @@
     "scminput": false,
     "yaml": true
   },
+  "github.copilot.nextEditSuggestions.enabled": true,
   "githubPullRequests.pullBranch": "always",
   "gitlens.codeLens.scopes": ["document"],
   "javascript.updateImportsOnFileMove.enabled": "always",
