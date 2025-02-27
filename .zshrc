@@ -47,6 +47,9 @@ case ":$PATH:" in
 *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 
+# Python
+export PATH="$HOME/Library/Python/3.12/bin:$PATH"
+
 # PostgreSQL
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/postgresql@17/lib"
