@@ -28,15 +28,33 @@
 [push]
 	autoSetupRemote = true
 
+[pull]
+	rebase = true
+
+[column]
+	ui = auto
+
+[branch]
+	sort = -committerdate
+
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
+
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
+
 [merge]
-  conflictstyle = diff3
+	conflictStyle = zdiff3
 	tool = vscode
 
 [mergetool "vscode"]
 	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
 
 [diff]
-	colorMoved = default
 	tool = vscode
 
 [difftool "vscode"]
@@ -45,6 +63,7 @@
 
 [rerere]
 	enabled = true
+	autoupdate = true
 	
 [filter "lfs"]
 	clean = git-lfs clean -- %f
@@ -54,6 +73,9 @@
 
 [interactive]
 	diffFilter = delta --color-only
+
+[help]
+	autocorrect = prompt
 
 [delta]
 	navigate = true
