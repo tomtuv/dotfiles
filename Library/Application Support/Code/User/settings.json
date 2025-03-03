@@ -2,6 +2,9 @@
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
+  "[gitconfig]": {
+    "editor.defaultFormatter": "yy0931.gitconfig-lsp"
+  },
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
@@ -26,7 +29,6 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
-  "chat.editing.alwaysSaveWithGeneratedChanges": true,
   "console-ninja.featureSet": "Community",
   "css.validate": false,
   "cssVariables.languages": [
@@ -74,6 +76,7 @@
   },
   "eslint.validate": [
     "astro",
+    "css",
     "html",
     "javascript",
     "javascriptreact",
@@ -108,7 +111,6 @@
   },
   "github.copilot.nextEditSuggestions.enabled": true,
   "githubPullRequests.pullBranch": "always",
-  "gitlens.codeLens.scopes": ["document"],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
