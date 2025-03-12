@@ -1,10 +1,7 @@
 {
-  "app.preferredTerminal": "Hyper",
-  "autocomplete.ai.enabled": true,
   "autocomplete.fontFamily": "ui-monospace, SFMono-Regular, monospace",
   "autocomplete.fontSize": 12,
   "autocomplete.theme": "system",
   "codeWhisperer.shareCodeWhispererContentWithAWS": false,
-  "telemetry.disabled": true,
   "telemetry.enabled": false
 }
