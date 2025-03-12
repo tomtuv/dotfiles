@@ -96,8 +96,7 @@
   "git.mergeEditor": true,
   "git.terminalGitEditor": true,
   "git.useEditorAsCommitInput": false,
-  "github.copilot.advanced": {},
-  "github.copilot.chat.edits.codesearch.enabled": true,
+  "github.copilot.chat.codesearch.enabled": true,
   "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
     "*": true,
@@ -110,6 +109,7 @@
     "yaml": true
   },
   "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
   "githubPullRequests.pullBranch": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
