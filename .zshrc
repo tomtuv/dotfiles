@@ -5,7 +5,7 @@
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias df="dotfiles"
 alias pn="pnpm"
-alias h2='pn $(npm prefix -s)/node_modules/.bin/shopify hydrogen'
+alias h2='pn shopify hydrogen'
 
 # Environment variables
 export BAT_THEME="Sublime Snazzy"
