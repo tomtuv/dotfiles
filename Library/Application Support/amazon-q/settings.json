@@ -2,7 +2,7 @@
   "app.hideMenubarIcon": false,
   "autocomplete.fontFamily": "ui-monospace, SFMono-Regular, monospace",
   "autocomplete.fontSize": 12,
-  "autocomplete.theme": "system",
+  "autocomplete.theme": "light",
   "codeWhisperer.shareCodeWhispererContentWithAWS": false,
   "inline.enabled": false,
   "telemetry.enabled": false
