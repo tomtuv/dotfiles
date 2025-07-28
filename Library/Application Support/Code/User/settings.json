@@ -104,8 +104,16 @@
   "github.copilot.chat.languageContext.fix.typescript.enabled": true,
   "github.copilot.chat.languageContext.inline.typescript.enabled": true,
   "github.copilot.chat.languageContext.typescript.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "scminput": false
+  },
   "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.nextEditSuggestions.fixes": true,
   "githubPullRequests.pullBranch": "always",
+  "inlineChat.enableV2": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
@@ -114,6 +122,7 @@
   "redhat.telemetry.enabled": false,
   "sanity.useCodelens": false,
   "scss.validate": false,
+  "search.searchView.keywordSuggestions": true,
   "security.workspace.trust.untrustedFiles": "open",
   "stylelint.validate": [
     "astro",
@@ -149,7 +158,12 @@
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "GitHub Light Default",
   "workbench.editor.historyBasedLanguageDetection": true,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.svg": "default"
+  },
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.preferredHighContrastColorTheme": "GitHub Light High Contrast",
-  "workbench.preferredLightColorTheme": "GitHub Light Default"
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.settings.showAISearchToggle": true
 }
