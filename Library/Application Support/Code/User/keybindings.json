@@ -1,39 +1,39 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "alt+w",
-    "command": "editor.emmet.action.wrapWithAbbreviation"
+    "command": "editor.emmet.action.wrapWithAbbreviation",
+    "key": "alt+w"
   },
   {
-    "key": "alt+r alt+e",
-    "command": "extension.cssrem.rem-switch-px"
+    "command": "extension.cssrem.rem-switch-px",
+    "key": "alt+r alt+e"
   },
   {
-    "key": "alt+z",
-    "command": "-extension.cssrem.rem-switch-px"
+    "command": "-extension.cssrem.rem-switch-px",
+    "key": "alt+z"
   },
   {
-    "key": "alt+r alt+p",
-    "command": "extension.cssrem.rpx-switch-px"
+    "command": "extension.cssrem.rpx-switch-px",
+    "key": "alt+r alt+p"
   },
   {
-    "key": "alt+r",
-    "command": "-extension.cssrem.rpx-switch-px"
+    "command": "-extension.cssrem.rpx-switch-px",
+    "key": "alt+r"
   },
   {
-    "key": "ctrl+shift+down",
-    "command": "editor.emmet.action.balanceIn"
+    "command": "editor.emmet.action.balanceIn",
+    "key": "ctrl+shift+down"
   },
   {
-    "key": "ctrl+shift+up",
-    "command": "editor.emmet.action.balanceOut"
+    "command": "editor.emmet.action.balanceOut",
+    "key": "ctrl+shift+up"
   },
   {
-    "key": "shift+cmd+0",
-    "command": "editor.action.inlineSuggest.showNext"
+    "command": "editor.action.inlineSuggest.showNext",
+    "key": "shift+cmd+0"
   },
   {
-    "key": "shift+cmd+9",
-    "command": "editor.action.inlineSuggest.showPrevious"
+    "command": "editor.action.inlineSuggest.showPrevious",
+    "key": "shift+cmd+9"
   }
 ]
