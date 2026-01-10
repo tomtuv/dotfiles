@@ -1,4 +1,7 @@
 {
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+  },
   "[dockercompose]": {
     "editor.autoIndent": "advanced",
     "editor.defaultFormatter": "redhat.vscode-yaml",
@@ -6,48 +9,48 @@
     "editor.quickSuggestions": {
       "comments": false,
       "other": true,
-      "strings": true
+      "strings": true,
     },
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "[dotenv]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor.defaultFormatter": "foxundermoon.shell-format",
   },
   "[gitconfig]": {
-    "editor.defaultFormatter": "yy0931.gitconfig-lsp"
+    "editor.defaultFormatter": "yy0931.gitconfig-lsp",
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor.defaultFormatter": "foxundermoon.shell-format",
   },
   "[liquid]": {
-    "editor.defaultFormatter": "Shopify.theme-check-vscode"
+    "editor.defaultFormatter": "Shopify.theme-check-vscode",
   },
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
   },
   "[properties]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor.defaultFormatter": "foxundermoon.shell-format",
   },
   "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor.defaultFormatter": "foxundermoon.shell-format",
   },
   "[smarty]": {
-    "editor.defaultFormatter": "aswinkumar863.smarty-template-support"
+    "editor.defaultFormatter": "aswinkumar863.smarty-template-support",
   },
   "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
+    "editor.defaultFormatter": "svelte.svelte-vscode",
   },
   "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
   },
   "chat.mcp.gallery.enabled": true,
   "chat.mcp.serverSampling": {
     "Global in Code: figma": {
-      "allowedModels": ["copilot/gpt-4.1"]
-    }
+      "allowedModels": ["copilot/gpt-4.1"],
+    },
   },
   "console-ninja.featureSet": "Community",
   "css.validate": false,
@@ -62,7 +65,7 @@
     "svelte",
     "vue",
     "vue-html",
-    "vue-postcss"
+    "vue-postcss",
   ],
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.accessibilitySupport": "off",
@@ -70,9 +73,9 @@
     "source.addMissingImports": "explicit",
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit",
-    "source.removeUnusedImports": "explicit"
+    "source.removeUnusedImports": "explicit",
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "prettier.prettier-vscode",
   "editor.fontFamily": "ui-monospace, SFMono-Regular, monospace",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -89,10 +92,10 @@
     "astro": "html",
     "liquid": "html",
     "nunjucks": "html",
-    "postcss": "css"
+    "postcss": "css",
   },
   "emmet.syntaxProfiles": {
-    "postcss": "css"
+    "postcss": "css",
   },
   "eslint.validate": [
     "astro",
@@ -104,7 +107,7 @@
     "svelte",
     "typescript",
     "typescriptreact",
-    "vue"
+    "vue",
   ],
   "explorer.confirmDragAndDrop": false,
   "files.insertFinalNewline": true,
@@ -117,10 +120,7 @@
   "git.path": "/opt/homebrew/bin/git",
   "git.terminalGitEditor": true,
   "git.useEditorAsCommitInput": false,
-  "github.copilot.chat.agent.thinkingTool": true,
   "github.copilot.chat.codesearch.enabled": true,
-  "github.copilot.chat.editor.temporalContext.enabled": true,
-  "github.copilot.chat.edits.temporalContext.enabled": true,
   "github.copilot.chat.generateTests.codeLens": true,
   "github.copilot.chat.languageContext.fix.typescript.enabled": true,
   "github.copilot.chat.languageContext.inline.typescript.enabled": true,
@@ -129,12 +129,11 @@
     "*": true,
     "markdown": true,
     "plaintext": false,
-    "scminput": false
+    "scminput": false,
   },
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.nextEditSuggestions.fixes": true,
   "githubPullRequests.pullBranch": "always",
-  "inlineChat.enableV2": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
@@ -142,6 +141,8 @@
   "markdownShortcuts.languages": ["markdown", "mdx"],
   "redhat.telemetry.enabled": false,
   "sanity.useCodelens": false,
+  "scm.repositories.explorer": true,
+  "scm.repositories.selectionMode": "single",
   "scss.validate": false,
   "search.searchView.keywordSuggestions": true,
   "security.workspace.trust.untrustedFiles": "open",
@@ -156,7 +157,7 @@
     "svelte",
     "vue",
     "vue-html",
-    "vue-postcss"
+    "vue-postcss",
   ],
   "svelte.enable-ts-plugin": true,
   "terminal.external.osxExec": "Ghostty.app",
@@ -168,11 +169,11 @@
   "terminal.integrated.profiles.osx": {
     "zsh": {
       "args": [],
-      "path": "/bin/zsh"
-    }
+      "path": "/bin/zsh",
+    },
   },
+  "terminal.integrated.shellIntegration.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.autoDetectColorScheme": true,
   "window.closeWhenEmpty": true,
   "window.newWindowDimensions": "inherit",
@@ -181,11 +182,15 @@
   "workbench.editor.historyBasedLanguageDetection": true,
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.svg": "default"
+    "*.svg": "default",
   },
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.preferredHighContrastColorTheme": "GitHub Light High Contrast",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.secondarySideBar.defaultVisibility": "visible",
-  "workbench.settings.showAISearchToggle": true
+  "workbench.settings.showAISearchToggle": true,
+  "inlineChat.enableV2": true,
+  "chat.viewSessions.orientation": "stacked",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "chat.useAgentSkills": true,
 }
