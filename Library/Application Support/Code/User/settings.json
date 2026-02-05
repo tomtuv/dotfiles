@@ -52,6 +52,8 @@
       "allowedModels": ["copilot/gpt-4.1"],
     },
   },
+  "chat.useAgentSkills": true,
+  "chat.viewSessions.orientation": "stacked",
   "console-ninja.featureSet": "Community",
   "css.validate": false,
   "cssVariables.languages": [
@@ -75,7 +77,7 @@
     "source.fixAll.stylelint": "explicit",
     "source.removeUnusedImports": "explicit",
   },
-  "editor.defaultFormatter": "prettier.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "ui-monospace, SFMono-Regular, monospace",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -87,6 +89,7 @@
   "editor.suggest.preview": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unusualLineTerminators": "auto",
   "emmet.includeLanguages": {
     "astro": "html",
@@ -132,8 +135,10 @@
     "scminput": false,
   },
   "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.nextEditSuggestions.extendedRange": true,
   "github.copilot.nextEditSuggestions.fixes": true,
   "githubPullRequests.pullBranch": "always",
+  "inlineChat.enableV2": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
@@ -164,7 +169,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.env.osx": {
-    "Q_NEW_SESSION": "1"
+    "Q_NEW_SESSION": "1",
   },
   "terminal.integrated.profiles.osx": {
     "zsh": {
@@ -189,8 +194,4 @@
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.secondarySideBar.defaultVisibility": "visible",
   "workbench.settings.showAISearchToggle": true,
-  "inlineChat.enableV2": true,
-  "chat.viewSessions.orientation": "stacked",
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "chat.useAgentSkills": true,
 }

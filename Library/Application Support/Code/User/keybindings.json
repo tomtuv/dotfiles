@@ -2,38 +2,42 @@
 [
   {
     "command": "editor.emmet.action.wrapWithAbbreviation",
-    "key": "alt+w"
+    "key": "alt+w",
   },
   {
     "command": "extension.cssrem.rem-switch-px",
-    "key": "alt+r alt+e"
+    "key": "alt+r alt+e",
   },
   {
     "command": "-extension.cssrem.rem-switch-px",
-    "key": "alt+z"
+    "key": "alt+z",
   },
   {
     "command": "extension.cssrem.rpx-switch-px",
-    "key": "alt+r alt+p"
+    "key": "alt+r alt+p",
   },
   {
     "command": "-extension.cssrem.rpx-switch-px",
-    "key": "alt+r"
+    "key": "alt+r",
   },
   {
     "command": "editor.emmet.action.balanceIn",
-    "key": "ctrl+shift+down"
+    "key": "ctrl+shift+down",
   },
   {
     "command": "editor.emmet.action.balanceOut",
-    "key": "ctrl+shift+up"
+    "key": "ctrl+shift+up",
   },
   {
     "command": "editor.action.inlineSuggest.showNext",
-    "key": "shift+cmd+0"
+    "key": "shift+cmd+0",
   },
   {
     "command": "editor.action.inlineSuggest.showPrevious",
-    "key": "shift+cmd+9"
-  }
+    "key": "shift+cmd+9",
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.quickSwitchWindow",
+  },
 ]
