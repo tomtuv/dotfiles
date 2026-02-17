@@ -10,3 +10,4 @@ window-padding-y = 8
 window-height = 25
 window-width = 75
 confirm-close-surface = false
+shell-integration-features = sudo
