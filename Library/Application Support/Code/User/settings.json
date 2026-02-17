@@ -177,7 +177,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.env.osx": {
-    "Q_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
   },
   "terminal.integrated.profiles.osx": {
     "zsh": {
