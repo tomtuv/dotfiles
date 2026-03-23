@@ -43,16 +43,25 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode",
   },
-  "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml",
-  },
-  "chat.mcp.gallery.enabled": true,
   "chat.mcp.serverSampling": {
     "Global in Code: figma": {
       "allowedModels": ["copilot/gpt-4.1"],
     },
   },
+  "chat.tools.terminal.autoApprove": {
+    "/^cat /var/folders/vc/tjkvz4595qndn_vpymtpsmrh0000gn/T/1774257967325-copilot-tool-output-5o83pn\\.txt \\| python3 -c \"import json,sys; pr=json\\.load\\(sys\\.stdin\\); print\\(pr\\['body'\\]\\[:3000\\]\\)\"$/": {
+      "approve": true,
+      "matchCommandLine": true,
+    },
+    "/^mv /Users/thomastuvignon/Developer/ace-hotel_202006/packages/components/wrap-root-element\\.js /Users/thomastuvignon/Developer/ace-hotel_202006/packages/components/create-wrap-root-element\\.js$/": {
+      "approve": true,
+      "matchCommandLine": true,
+    },
+    "pnpm": true,
+    "printf": true,
+  },
   "chat.useAgentSkills": true,
+  "chat.subagents.allowInvocationsFromSubagents": true,
   "chat.viewSessions.orientation": "stacked",
   "console-ninja.autoDisplayOutputPanel": false,
   "console-ninja.featureSet": "Community",
@@ -126,10 +135,9 @@
   "git.path": "/opt/homebrew/bin/git",
   "git.terminalGitEditor": true,
   "git.useEditorAsCommitInput": false,
-  "github.copilot.chat.askQuestions.enabled": true,
+  "github.copilot.chat.cli.forkSessions.enabled": true,
   "github.copilot.chat.codesearch.enabled": true,
   "github.copilot.chat.copilotMemory.enabled": true,
-  "github.copilot.chat.generateTests.codeLens": true,
   "github.copilot.chat.languageContext.fix.typescript.enabled": true,
   "github.copilot.chat.languageContext.inline.typescript.enabled": true,
   "github.copilot.chat.languageContext.typescript.enabled": true,
@@ -147,7 +155,7 @@
   "inlineChat.affordance": "editor",
   "inlineChat.enableV2": true,
   "inlineChat.renderMode": "hover",
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
   "livePreview.openPreviewTarget": "External Browser",
@@ -186,7 +194,6 @@
     },
   },
   "terminal.integrated.shellIntegration.enabled": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "window.autoDetectColorScheme": true,
   "window.closeWhenEmpty": true,
   "window.newWindowDimensions": "inherit",
