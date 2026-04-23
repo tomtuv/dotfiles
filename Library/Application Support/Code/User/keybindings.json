@@ -40,4 +40,9 @@
     "key": "alt+tab",
     "command": "workbench.action.quickSwitchWindow",
   },
+  {
+    "key": "alt+cmd+s",
+    "command": "workbench.action.toggleUnifiedSidebarFromKeyboard",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  },
 ]
