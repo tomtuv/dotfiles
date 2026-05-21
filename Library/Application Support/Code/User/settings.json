@@ -51,6 +51,9 @@
     "Global in Code: figma": {
       "allowedModels": ["copilot/gpt-4.1"],
     },
+    "Global in Code: io.github.vercel/next-devtools-mcp": {
+      "allowedModels": ["copilot/auto", "copilotcli/claude-sonnet-4.6"],
+    },
   },
   "chat.plugins.marketplaces": [
     "github/copilot-plugins",
@@ -93,6 +96,7 @@
     "vue-html",
     "vue-postcss",
   ],
+  "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
@@ -109,6 +113,7 @@
   "editor.inlineSuggest.enabled": true,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
+  "editor.quickSuggestions": "on",
   "editor.stickyScroll.enabled": true,
   "editor.suggest.preview": true,
   "editor.suggestSelection": "first",
@@ -157,8 +162,8 @@
   "github.copilot.chat.searchSubagent.enabled": true,
   "github.copilot.enable": {
     "*": true,
-    "markdown": true,
     "plaintext": false,
+    "markdown": true,
     "scminput": false,
   },
   "github.copilot.nextEditSuggestions.enabled": true,
@@ -166,9 +171,7 @@
   "github.copilot.nextEditSuggestions.fixes": true,
   "githubPullRequests.pullBranch": "always",
   "inlineChat.affordance": "editor",
-  "inlineChat.enableV2": true,
   "inlineChat.notebookAgent": true,
-  "inlineChat.renderMode": "hover",
   "js/ts.updateImportsOnFileMove.enabled": "always",
   "jsts-chat-features.skills.enabled": true,
   "less.validate": false,
