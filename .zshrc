@@ -2,6 +2,8 @@
 # Kiro CLI pre block. Keep at the top of this file.
 [[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
 
+
+
 # Aliases
 alias cpcli='copilot --allow-all-tools -p "$@"'
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -65,8 +67,6 @@ export PATH=~/.console-ninja/.bin:$PATH
 . "$HOME/.vite-plus/env"
 
 
-# Kiro CLI post block. Keep at the bottom of this file.
-[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
 
 # pnpm
 export PNPM_HOME="/Users/thomastuvignon/Library/pnpm"
@@ -75,3 +75,17 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME/bin:$PATH" ;;
 esac
 # pnpm end
+
+
+# Kiro CLI post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
+
+
+# Added by Antigravity CLI installer
+export PATH="/Users/thomastuvignon/.local/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/thomastuvignon/.antigravity-ide/antigravity-ide/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/thomastuvignon/.antigravity-ide/antigravity-ide/bin:$PATH"
