@@ -1,5 +1,7 @@
+
 # Kiro CLI pre block. Keep at the top of this file.
 [[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
+
 
 # Aliases
 alias cpcli='copilot --allow-all-tools -p "$@"'
@@ -79,6 +81,11 @@ export PATH="/Users/thomastuvignon/.antigravity-ide/antigravity-ide/bin:$PATH"
 
 # Added by Antigravity IDE
 export PATH="/Users/thomastuvignon/.antigravity-ide/antigravity-ide/bin:$PATH"
+
+
+# opencode
+export PATH=/Users/thomastuvignon/.opencode/bin:$PATH
+
 
 # Kiro CLI post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
