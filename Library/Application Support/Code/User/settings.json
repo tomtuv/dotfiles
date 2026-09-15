@@ -14,7 +14,7 @@
     "editor.tabSize": 2,
   },
   "[dotenv]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.defaultFormatter": "lumirelle.shell-format-rev",
   },
   "[gitconfig]": {
     "editor.defaultFormatter": "yy0931.gitconfig-lsp",
@@ -23,7 +23,7 @@
     "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.defaultFormatter": "lumirelle.shell-format-rev",
   },
   "[liquid]": {
     "editor.defaultFormatter": "Shopify.theme-check-vscode",
@@ -32,16 +32,19 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
   },
   "[properties]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.defaultFormatter": "lumirelle.shell-format-rev",
   },
   "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.defaultFormatter": "lumirelle.shell-format-rev",
   },
   "[smarty]": {
     "editor.defaultFormatter": "aswinkumar863.smarty-template-support",
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode",
+  },
+  "[zsh]": {
+    "editor.defaultFormatter": "lumirelle.shell-format-rev",
   },
   "chat.checkpoints.showFileChanges": true,
   "chat.editing.explainChanges.enabled": true,
