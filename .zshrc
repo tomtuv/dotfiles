@@ -1,7 +1,5 @@
-
 # Kiro CLI pre block. Keep at the top of this file.
 [[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
-
 
 # Aliases
 alias cpcli='copilot --allow-all-tools -p "$@"'
@@ -68,10 +66,15 @@ export PATH=~/.console-ninja/.bin:$PATH
 # pnpm
 export PNPM_HOME="/Users/thomastuvignon/Library/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME/bin:"*) ;;
-  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+*":$PNPM_HOME/bin:"*) ;;
+*) export PATH="$PNPM_HOME/bin:$PATH" ;;
 esac
 # pnpm end
+
+# Ghostty
+if [ -n "${GHOSTTY_RESOURCES_DIR}" ]; then
+  source "${GHOSTTY_RESOURCES_DIR}/shell-integration/zsh/ghostty-integration"
+fi
 
 # Added by Antigravity CLI installer
 export PATH="/Users/thomastuvignon/.local/bin:$PATH"
@@ -82,10 +85,8 @@ export PATH="/Users/thomastuvignon/.antigravity-ide/antigravity-ide/bin:$PATH"
 # Added by Antigravity IDE
 export PATH="/Users/thomastuvignon/.antigravity-ide/antigravity-ide/bin:$PATH"
 
-
 # opencode
 export PATH=/Users/thomastuvignon/.opencode/bin:$PATH
-
 
 # Kiro CLI post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
