@@ -46,8 +46,10 @@
   "[zsh]": {
     "editor.defaultFormatter": "lumirelle.shell-format-rev",
   },
+  "chat.agentHost.codexAgent.enabled": true,
   "chat.checkpoints.showFileChanges": true,
   "chat.editing.explainChanges.enabled": true,
+  "chat.editor.codex.preferAgentHost": true,
   "chat.experimental.incrementalRendering.enabled": true,
   "chat.mcp.gallery.enabled": true,
   "chat.mcp.serverSampling": {
