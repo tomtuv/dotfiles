@@ -199,6 +199,7 @@
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
   "livePreview.openPreviewTarget": "External Browser",
   "markdownShortcuts.languages": ["markdown", "mdx"],
+  "python.languageServer": "Default",
   "redhat.telemetry.enabled": false,
   "sanity.useCodelens": false,
   "scm.repositories.explorer": true,
