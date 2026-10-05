@@ -31,6 +31,11 @@ promptinit
 prompt pure
 zstyle :prompt:pure:git:stash show yes
 
+# Ghostty
+if [ -n "${GHOSTTY_RESOURCES_DIR}" ]; then
+  source "${GHOSTTY_RESOURCES_DIR}/shell-integration/zsh/ghostty-integration"
+fi
+
 # Bun completions
 bun_completions_file="$HOME/.bun/_bun"
 [ -s "$bun_completions_file" ] && source "$bun_completions_file"
@@ -43,11 +48,12 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 eval "$(fnm env --use-on-cd --shell zsh)"
 
 # pnpm
-export PNPM_HOME="/Users/thomastuvignon/Library/pnpm"
+export PNPM_HOME='/Users/thomastuvignon/Library/pnpm'
 case ":$PATH:" in
-*":$PNPM_HOME:"*) ;;
-*) export PATH="$PNPM_HOME:$PATH" ;;
+*":$PNPM_HOME/bin:"*) ;;
+*) export PATH="$PNPM_HOME/bin:$PATH" ;;
 esac
+# pnpm end
 
 # Python
 export PATH="$HOME/Library/Python/3.12/bin:$PATH"
@@ -62,19 +68,6 @@ export PATH=~/.console-ninja/.bin:$PATH
 
 # Vite+ bin (https://viteplus.dev)
 . "$HOME/.vite-plus/env"
-
-# pnpm
-export PNPM_HOME="/Users/thomastuvignon/Library/pnpm"
-case ":$PATH:" in
-*":$PNPM_HOME/bin:"*) ;;
-*) export PATH="$PNPM_HOME/bin:$PATH" ;;
-esac
-# pnpm end
-
-# Ghostty
-if [ -n "${GHOSTTY_RESOURCES_DIR}" ]; then
-  source "${GHOSTTY_RESOURCES_DIR}/shell-integration/zsh/ghostty-integration"
-fi
 
 # Added by Antigravity CLI installer
 export PATH="/Users/thomastuvignon/.local/bin:$PATH"
