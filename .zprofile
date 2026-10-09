@@ -1,6 +1,3 @@
-# Kiro CLI pre block. Keep at the top of this file.
-[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zprofile.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zprofile.pre.zsh"
-
 # Initialize Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -14,6 +11,3 @@ source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 
 # Added by Antigravity CLI installer
 export PATH="/Users/thomastuvignon/.local/bin:$PATH"
-
-# Kiro CLI post block. Keep at the bottom of this file.
-[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zprofile.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zprofile.post.zsh"

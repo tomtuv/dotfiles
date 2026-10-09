@@ -1,5 +1,12 @@
-# Kiro CLI pre block. Keep at the top of this file.
-[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
+# >>> ghost-complete initialize >>>
+# !! Contents within this block are managed by 'ghost-complete install' !!
+if [[ -f '/Users/thomastuvignon/.config/ghost-complete/shell/init.zsh' ]]; then
+  builtin source '/Users/thomastuvignon/.config/ghost-complete/shell/init.zsh'
+else
+  echo "ghost-complete: init script missing: "'/Users/thomastuvignon/.config/ghost-complete/shell/init.zsh' >&2
+  echo "ghost-complete: run 'ghost-complete install' to restore it" >&2
+fi
+# <<< ghost-complete initialize <<<
 
 # Aliases
 alias cpcli='copilot --allow-all-tools -p "$@"'
@@ -30,11 +37,6 @@ autoload -U promptinit
 promptinit
 prompt pure
 zstyle :prompt:pure:git:stash show yes
-
-# Ghostty
-if [ -n "${GHOSTTY_RESOURCES_DIR}" ]; then
-  source "${GHOSTTY_RESOURCES_DIR}/shell-integration/zsh/ghostty-integration"
-fi
 
 # Bun completions
 bun_completions_file="$HOME/.bun/_bun"
@@ -81,5 +83,7 @@ export PATH="/Users/thomastuvignon/.antigravity-ide/antigravity-ide/bin:$PATH"
 # opencode
 export PATH=/Users/thomastuvignon/.opencode/bin:$PATH
 
-# Kiro CLI post block. Keep at the bottom of this file.
-[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
+# >>> ghost-complete shell integration >>>
+# !! Contents within this block are managed by 'ghost-complete install' !!
+source '/Users/thomastuvignon/.config/ghost-complete/shell/ghost-complete.zsh'
+# <<< ghost-complete shell integration <<<

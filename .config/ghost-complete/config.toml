@@ -1,0 +1,70 @@
+# Ghost Complete configuration
+# Uncomment and edit values to customize. All values shown are defaults.
+
+# [trigger]
+# auto_chars = [' ', '/', '-', '.']
+# delay_ms = 150
+# auto_trigger = true  # Set to false to disable all automatic triggers (manual keybinding only)
+
+[popup]
+# max_visible = 10
+# borders = false  # Set to true to enable rounded borders around the popup
+# feedback_dismiss_ms = 1200  # Empty/error feedback auto-dismiss delay; 0 disables
+# spinner = true  # Animate async Loading feedback in wide popups
+# show_provider_errors = false  # Set true to show provider names in error feedback
+# render_block_ms = 80  # Pre-paint window (ms, 0-300); 0 paints immediately, higher races fast async generators into the first frame
+# min_width = 20  # Lower bound for popup width; clamped to [10, 500]
+# max_width = 60  # Upper bound for popup width; clamped to [min_width, 500]
+# description_box = "off"  # "off" for inline descriptions, "side" for wrapped adjacent box
+# description_box_max_width = 60  # Max description-box width; clamped to [20, 200]
+# description_box_lines = 5  # Max wrapped description lines; 0 resets to 5, above 20 clamps to 20
+# description_box_debounce_ms = 80  # Description-box selection debounce; 0 disables
+tab_accepts_top = true  # Set true to make Tab accept the top suggestion when nothing is navigated (Fig/Kiro-style); Enter still runs the line
+
+# [suggest]
+# max_results = 50
+# max_history_results = 5
+# generator_timeout_ms = 5000  # Per-invocation timeout (ms) for async script/git generators
+# match_mode = "fuzzy"  # "fuzzy" = subsequence (gco -> git checkout); "substring" = contiguous (cl -> clone, not calendar); restart required
+
+# [suggest.providers]
+# commands = true
+# filesystem = true
+# specs = true
+# git = true
+# js_runtime = true  # Master kill switch for the QuickJS evaluator backing requires_js generators; restart required
+
+# [suggest.spec_cache]
+# idle_ttl_secs = 0  # Seconds idle before a parsed spec is evicted; 0 disables eviction
+# sweep_interval_secs = 60  # Background sweep cadence (seconds); ignored when idle_ttl_secs = 0
+# keep_warm = []  # Spec names (filename stem) that are never evicted; e.g. ["git", "docker"]
+# max_resident_mb = 0  # LRU backstop in MB after TTL eviction; 0 disables
+
+# [paths]
+# spec_dirs = []  # Additional spec source directories searched at startup (highest precedence first)
+
+# [keybindings]
+# accept = "tab"
+# accept_and_enter = "enter"
+# dismiss = "escape"
+# navigate_up = "arrow_up"
+# navigate_down = "arrow_down"
+# trigger = "ctrl+/"
+
+# [theme]
+# preset = "dark"
+# selected = "reverse"
+# description = "dim"
+# match_highlight = "bold"
+# item_text = ""
+# scrollbar = "dim"
+# border = "dim"
+# feedback_loading = "dim"
+# feedback_empty = "dim"
+# feedback_error = "dim fg:#f38ba8"
+
+# [experimental]
+# multi_terminal = false  # Set to true to enable unsupported/unknown terminals
+# aws_sdk_provider = false  # Opt in to native AWS SDK completions; may make outbound AWS calls
+# aws_sdk_fallback_to_cli = true  # Fall back to the aws CLI when SDK completions cannot run
+# brew_search_cap = 1000  # Cap on `brew search ""` results before fuzzy ranking; raise for unfiltered exploration
