@@ -112,7 +112,7 @@
     "source.removeUnusedImports": "explicit",
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "ui-monospace, SFMono-Regular, monospace",
+  "editor.fontFamily": "ui-monospace, SFMono-Regular, monospace, Symbols Nerd Font Mono",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.inlineSuggest.edits.renderSideBySide": "never",
