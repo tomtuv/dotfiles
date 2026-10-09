@@ -46,10 +46,8 @@
   "[zsh]": {
     "editor.defaultFormatter": "lumirelle.shell-format-rev",
   },
-  "chat.agentHost.codexAgent.enabled": true,
   "chat.checkpoints.showFileChanges": true,
   "chat.editing.explainChanges.enabled": true,
-  "chat.editor.codex.preferAgentHost": true,
   "chat.experimental.incrementalRendering.enabled": true,
   "chat.mcp.gallery.enabled": true,
   "chat.mcp.serverSampling": {
@@ -65,7 +63,6 @@
     "github/awesome-copilot",
     "https://github.com/Shopify/shopify-ai-toolkit",
   ],
-  "chat.sessionSync.enabled": true,
   "chat.subagents.allowInvocationsFromSubagents": true,
   "chat.tools.confirmationCarousel.enabled": true,
   "chat.tools.terminal.autoApprove": {
@@ -195,6 +192,7 @@
     "https://www.schemastore.org/": true,
   },
   "jsts-chat-features.skills.enabled": true,
+  "keyboard.dispatch": "keyCode",
   "less.validate": false,
   "livePreview.autoRefreshPreview": "On Changes to Saved Files",
   "livePreview.openPreviewTarget": "External Browser",
